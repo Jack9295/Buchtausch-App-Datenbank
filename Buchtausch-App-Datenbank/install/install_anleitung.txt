@@ -1,0 +1,43 @@
+INSTALLATIONSANLEITUNG
+=======================
+Buchtausch-App Datenbank
+Version 1.0
+
+1. SYSTEMVORAUSSETZUNGEN
+-------------------------
+- MySQL 8.0+ oder PostgreSQL 13+
+- MySQL Workbench / pgAdmin (optional)
+- Mindestens 100 MB freier Speicherplatz
+
+2. DATENBANK ERSTELLEN (MySQL)
+-------------------------
+mysql -u root -p
+CREATE DATABASE buchtausch CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE buchtausch;
+EXIT;
+
+3. TABELLEN ANLEGEN
+-------------------------
+mysql -u root -p buchtausch < sql/01_create_tables.sql
+
+4. DUMMY-DATEN EINFÜGEN
+-------------------------
+mysql -u root -p buchtausch < sql/02_insert_dummy_data.sql
+
+5. INDIZES ERSTELLEN
+-------------------------
+mysql -u root -p buchtausch < sql/03_create_indexes.sql
+
+6. TESTABFRAGEN AUSFÜHREN
+-------------------------
+mysql -u root -p buchtausch < sql/04_test_queries.sql
+
+7. FEHLERBEHEBUNG
+-------------------------
+Problem: "Access denied"
+Lösung: Benutzername und Passwort prüfen
+
+Problem: "Database does not exist"
+Lösung: Datenbank zuerst mit CREATE DATABASE erstellen
+
+Weitere Fragen: [FERASALSHMAM1995@GMAIL.COM]
