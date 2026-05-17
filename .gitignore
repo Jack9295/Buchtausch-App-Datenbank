@@ -1,0 +1,39 @@
+# ==================================================
+# .gitignore für Buchtausch-App Datenbank Projekt
+# ==================================================
+
+# Sensible Daten
+.env
+*.key
+*.pem
+*.crt
+
+# Datenbank-Dumps (sehr wichtig!)
+*.sql
+*.dump
+*.backup
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+backups/
+dumps/
+
+# Logs & Temp
+*.log
+*.tmp
+temp/
+logs/
+
+# Betriebssysteme
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Projekt-spezifisch
+screenshots/temp/
+*.orig
