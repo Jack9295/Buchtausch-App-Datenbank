@@ -48,7 +48,7 @@ Diese relationale Datenbank wurde im Rahmen des Portfoliokurses DLBDSPBDM01_D en
 
 ## 🔗 Links
 
-- **GitHub-Repository:** [https://github.com/DEIN-USERNAME/buchtausch-app-datenbank](https://github.com/DEIN-USERNAME/buchtausch-app-datenbank)
+- **GitHub-Repository:** [https://github.com/DEIN-USERNAME/buchtausch-app-datenbank](https://github.com/Jack9295/buchtausch-app-datenbank)
 - **IU Internationale Hochschule:** [https://www.iu.de](https://www.iu.de)
 
 ---
